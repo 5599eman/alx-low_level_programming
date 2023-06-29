@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _sqrt - finds the square root
@@ -15,7 +16,7 @@ double _sqrt(double x)
 	sqrt = x / 2;
 	tmp = 0;
 
-	while (sqrt 1 = tmp)
+	while (sqrt != tmp)
 	{
 		tmp = sqrt;
 		sqrt = (x / tmp + tmp) / 2;
@@ -39,12 +40,12 @@ void largest_prime_factor(long int num)
 		num = num / 2;
 
 	/* num must be odd so we proceed to the next prime number (plus two) */
-	for (prmNu = 3; <= _sqrt(num); prmNu += 2)
+	for (prmNu = 3; prmNu <= _sqrt(num); prmNu += 2)
 	{
 		while (num % prmNu == 0)
 		{
 			num = num / prmNu;
-			largest = prmNu
+			largest = prmNu;
 		}
 	}
 
