@@ -3,7 +3,7 @@
 
 
 /**
- * *string_toupper - change all lowercase letters of a string to upper
+ * string_toupper - change all lowercase letters of a string to upper
  *
  * @str: string to return.
  * Return: string.
