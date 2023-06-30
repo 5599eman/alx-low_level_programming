@@ -7,9 +7,9 @@
  *
  * @str: string to return.
  * Return: string.
- */
+*/
 
-char **string_toupper(char *str)
+char *string_toupper(char *str)
 {
 	int i;
 
