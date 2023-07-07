@@ -2,7 +2,7 @@
 
 /**
  * main-print number of arguments passed.
- * @argc/;number of commandline arguments.
+ * @argc:number of commandline arguments.
  * @argv:pointer to an arra of command line arguments.
  * Return:0-success, non-zero-fail.
  */
