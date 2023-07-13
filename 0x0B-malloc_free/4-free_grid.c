@@ -2,7 +2,7 @@
 
 /**
  * free_grid - free the gird
- * @gird: gird of memories
+ * @grid: gird of memories
  * @height: int
  * Return: void
  */
