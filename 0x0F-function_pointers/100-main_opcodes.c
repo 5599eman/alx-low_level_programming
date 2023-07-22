@@ -9,7 +9,7 @@
  *
  * Return: Always 0.
  */
-int main(int arg, char **argv)
+int main(int argc, char **argv)
 {
 	char *p = (char *)main;
 	int b;
